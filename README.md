@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/u-pucuys-one-line-office-joke-24-hour-sprint-aaf86162/kikirizky23/one-line-office-joke/rank.svg)](https://make.fun/bounty/u-pucuys-one-line-office-joke-24-hour-sprint-aaf86162/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-pucuys-one-line-office-joke-24-hour-sprint-aaf86162)
 [![reward](https://make.fun/badge/u-pucuys-one-line-office-joke-24-hour-sprint-aaf86162/kikirizky23/one-line-office-joke/reward.svg)](https://make.fun/bounty/u-pucuys-one-line-office-joke-24-hour-sprint-aaf86162?utm_source=github&utm_medium=readme&utm_campaign=u-pucuys-one-line-office-joke-24-hour-sprint-aaf86162)
 
-One line about office life: **"The meeting ended early, so we spent the saved time scheduling another meeting to discuss why it ended early."** The program writes that single line to `/output/entry.txt` — exactly one line, nothing else: no gloss, no second line, no trailing newline. The joke is the loop: meetings exist to discuss meetings, and even escaping one early just feeds the next. A judge reads two jokes at a time and keeps the funnier one; this one wins on the twist in its second half, the meeting scheduled to discuss why the first meeting ended early.
+A single line about office life: **"The meeting ended early, so we spent the saved time scheduling another meeting to discuss why it ended early."** The gag is a loop — the meeting ends early, and the time saved gets spent on a new meeting whose only job is to discuss why the first one ended early. It never really ends; it just schedules a follow-up about itself. That is the kind of thing you send to a colleague right after the call, because everyone who has worked in an office has seen a calendar fill up exactly like that. The program writes this one line to `/output/entry.txt` and nothing else: one line, no extra words, no trailing newline.
 
 ## Run it
 
@@ -12,7 +12,7 @@ One line about office life: **"The meeting ended early, so we spent the saved ti
 node main.ts
 ```
 
-It creates the output directory if needed, writes `/output/entry.txt` as UTF-8 (one line, no trailing newline), and reads the file back to confirm it matches the joke exactly.
+It makes the output folder when it is missing, writes `/output/entry.txt` as UTF-8 (one line, no trailing newline), then reads the file back to make sure it holds exactly the line above.
 
 ---
 
